@@ -1,0 +1,100 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit",sans-serif;
+}
+.container{
+    display: grid;
+   
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    border-radius: 20px;
+    border: solid ;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+
+}
+.image{
+    width: 255px;
+    height: 260px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.link{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.content{
+    color: hsl(215, 51%, 70%);
+    margin: 20px 0  20px 0;
+}
+.dis3{
+    display: flex;
+    justify-content: space-between;
+}
+.dis{
+    display: flex;
+    
+}
+.dis2{
+    display: flex;
+    
+}
+.symbol{
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+.symbol2{
+    margin-left: 10px;
+    color:hsl(215, 51%, 70%) ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.dp{
+   height: 30px;
+   width: 30px;
+   border: 2px solid hsl(0, 0%, 100%) ;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    margin: 20px 0 20px 0 ;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.name{
+    color: white;
+}
+.img{
+    position: relative;
+}
+
+.img :hover .image{
+    filter: blur(5px);
+
+}.img:hover .hidden{
+    opacity: 1;
+      
+}
+@media only screen and (max-width:550px){
+    body{
+       grid-template-columns: 1fr;
+    }
+}
